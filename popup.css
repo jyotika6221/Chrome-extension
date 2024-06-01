@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#flashcard-form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="url"],
+button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.flashcard p {
+  margin: 0;
+}
+
+.delete-button,
+.edit-button {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #c82333;
+}
